@@ -1,0 +1,4 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test Suite,,,2020-02-24 09:45:16,2020-02-24 09:45:17,0.239s,INCOMPLETE
+,,,,,,
+Test Cases/LoginAndSelectProducts,,Se autentica en la aplicación y realiza la compra de varios productos.,2020-02-24 09:45:17,2020-02-24 09:45:17,0.026s,PASSED

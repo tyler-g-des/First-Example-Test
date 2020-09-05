@@ -1,0 +1,91 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test Suite Firefox,Firefox 72.0,,2020-02-24 12:46:43,2020-02-24 12:47:13,29.330s,PASSED
+,,,,,,
+Test Cases/LoginAndSelectProducts,Firefox 72.0,Se autentica en la aplicación y realiza la compra de varios productos.,2020-02-24 12:46:44,2020-02-24 12:47:06,21.933s,PASSED
+"openBrowser(""http://training.openspan.com/login"")",Firefox 72.0,,2020-02-24 12:46:45,2020-02-24 12:46:53,8.050s,PASSED
+"entidad.OpcionComun.objetoPresente(findTestObject(""Object Repository/Present Objects/1_TextoLogin""))",Firefox 72.0,,2020-02-24 12:46:53,2020-02-24 12:46:53,0.071s,PASSED
+"entidad.OpcionComun.escribirTexto(findTestObject(""Object Repository/SignIn Page/Username""), findTestData(""Test Data"").getValue(1, 1))",Firefox 72.0,,2020-02-24 12:46:53,2020-02-24 12:46:54,0.832s,PASSED
+"entidad.OpcionComun.escribirTextoEncriptado(findTestObject(""Object Repository/SignIn Page/Password""), findTestData(""Test Data"").getValue(2, 1))",Firefox 72.0,,2020-02-24 12:46:54,2020-02-24 12:46:54,0.157s,PASSED
+"entidad.OpcionComun.darClick(findTestObject(""Object Repository/SignIn Page/SigninBtn""))",Firefox 72.0,,2020-02-24 12:46:54,2020-02-24 12:46:54,0.585s,PASSED
+"entidad.OpcionComun.objetoPresente(findTestObject(""Object Repository/Present Objects/2_TextoSeleccionarProductos""))",Firefox 72.0,,2020-02-24 12:46:54,2020-02-24 12:46:54,0.016s,PASSED
+"entidad.OpcionComun.darClick(findTestObject(""Object Repository/Select Items Page/ProductType""))",Firefox 72.0,,2020-02-24 12:46:54,2020-02-24 12:46:55,0.243s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/Select Items Page/ProductType""), findTestData(""Test Data"").getValue(3, 1), false)",Firefox 72.0,,2020-02-24 12:46:55,2020-02-24 12:46:55,0.278s,PASSED
+"entidad.OpcionComun.darClick(findTestObject(""Object Repository/Select Items Page/ProductsList""))",Firefox 72.0,,2020-02-24 12:46:55,2020-02-24 12:46:55,0.251s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/Select Items Page/ProductsList""), findTestData(""Test Data"").getValue(4, 1), false)",Firefox 72.0,,2020-02-24 12:46:55,2020-02-24 12:46:55,0.269s,PASSED
+"entidad.OpcionComun.darClick(findTestObject(""Object Repository/Select Items Page/BtnViewDetails""))",Firefox 72.0,,2020-02-24 12:46:55,2020-02-24 12:46:56,0.473s,PASSED
+"entidad.OpcionComun.objetoPresente(findTestObject(""Object Repository/Present Objects/3_BotonOrder""))",Firefox 72.0,,2020-02-24 12:46:56,2020-02-24 12:46:56,0.017s,PASSED
+"entidad.OpcionComun.darClick(findTestObject(""Object Repository/Select Items Page/BtnOrder""))",Firefox 72.0,,2020-02-24 12:46:56,2020-02-24 12:46:56,0.569s,PASSED
+"entidad.OpcionComun.objetoPresente(findTestObject(""Object Repository/Present Objects/4_OrderProducts""))",Firefox 72.0,,2020-02-24 12:46:56,2020-02-24 12:46:56,0.013s,PASSED
+"entidad.OpcionComun.darClick(findTestObject(""Object Repository/Select Items Page/HomeLink""))",Firefox 72.0,,2020-02-24 12:46:56,2020-02-24 12:46:57,0.325s,PASSED
+"entidad.OpcionComun.objetoPresente(findTestObject(""Object Repository/Present Objects/2_TextoSeleccionarProductos""))",Firefox 72.0,,2020-02-24 12:46:57,2020-02-24 12:46:57,0.020s,PASSED
+"entidad.OpcionComun.darClick(findTestObject(""Object Repository/Select Items Page/ProductType""))",Firefox 72.0,,2020-02-24 12:46:57,2020-02-24 12:46:57,0.240s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/Select Items Page/ProductType""), findTestData(""Test Data"").getValue(3, 1), false)",Firefox 72.0,,2020-02-24 12:46:57,2020-02-24 12:46:57,0.265s,PASSED
+"entidad.OpcionComun.darClick(findTestObject(""Object Repository/Select Items Page/ProductsList""))",Firefox 72.0,,2020-02-24 12:46:57,2020-02-24 12:46:58,0.259s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/Select Items Page/ProductsList""), findTestData(""Test Data"").getValue(4, 2), false)",Firefox 72.0,,2020-02-24 12:46:58,2020-02-24 12:46:58,0.293s,PASSED
+"entidad.OpcionComun.darClick(findTestObject(""Object Repository/Select Items Page/BtnViewDetails""))",Firefox 72.0,,2020-02-24 12:46:58,2020-02-24 12:46:58,0.353s,PASSED
+"entidad.OpcionComun.objetoPresente(findTestObject(""Object Repository/Present Objects/3_BotonOrder""))",Firefox 72.0,,2020-02-24 12:46:58,2020-02-24 12:46:58,0.013s,PASSED
+"entidad.OpcionComun.darClick(findTestObject(""Object Repository/Select Items Page/BtnOrder""))",Firefox 72.0,,2020-02-24 12:46:58,2020-02-24 12:46:59,0.488s,PASSED
+"entidad.OpcionComun.objetoPresente(findTestObject(""Object Repository/Present Objects/4_OrderProducts""))",Firefox 72.0,,2020-02-24 12:46:59,2020-02-24 12:46:59,0.015s,PASSED
+"entidad.OpcionComun.darClick(findTestObject(""Object Repository/Select Items Page/HomeLink""))",Firefox 72.0,,2020-02-24 12:46:59,2020-02-24 12:46:59,0.343s,PASSED
+"entidad.OpcionComun.objetoPresente(findTestObject(""Object Repository/Present Objects/2_TextoSeleccionarProductos""))",Firefox 72.0,,2020-02-24 12:46:59,2020-02-24 12:46:59,0.016s,PASSED
+"entidad.OpcionComun.darClick(findTestObject(""Object Repository/Select Items Page/ProductType""))",Firefox 72.0,,2020-02-24 12:46:59,2020-02-24 12:46:59,0.240s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/Select Items Page/ProductType""), findTestData(""Test Data"").getValue(3, 1), false)",Firefox 72.0,,2020-02-24 12:46:59,2020-02-24 12:47:00,0.297s,PASSED
+"entidad.OpcionComun.darClick(findTestObject(""Object Repository/Select Items Page/ProductsList""))",Firefox 72.0,,2020-02-24 12:47:00,2020-02-24 12:47:00,0.230s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/Select Items Page/ProductsList""), findTestData(""Test Data"").getValue(4, 3), false)",Firefox 72.0,,2020-02-24 12:47:00,2020-02-24 12:47:00,0.260s,PASSED
+"entidad.OpcionComun.darClick(findTestObject(""Object Repository/Select Items Page/BtnViewDetails""))",Firefox 72.0,,2020-02-24 12:47:00,2020-02-24 12:47:00,0.342s,PASSED
+"entidad.OpcionComun.objetoPresente(findTestObject(""Object Repository/Present Objects/3_BotonOrder""))",Firefox 72.0,,2020-02-24 12:47:00,2020-02-24 12:47:00,0.017s,PASSED
+"entidad.OpcionComun.darClick(findTestObject(""Object Repository/Select Items Page/BtnOrder""))",Firefox 72.0,,2020-02-24 12:47:00,2020-02-24 12:47:01,0.637s,PASSED
+"entidad.OpcionComun.objetoPresente(findTestObject(""Object Repository/Present Objects/4_OrderProducts""))",Firefox 72.0,,2020-02-24 12:47:01,2020-02-24 12:47:01,0.023s,PASSED
+"entidad.OpcionComun.darClick(findTestObject(""Object Repository/Select Items Page/HomeLink""))",Firefox 72.0,,2020-02-24 12:47:01,2020-02-24 12:47:02,0.372s,PASSED
+"entidad.OpcionComun.objetoPresente(findTestObject(""Object Repository/Present Objects/2_TextoSeleccionarProductos""))",Firefox 72.0,,2020-02-24 12:47:02,2020-02-24 12:47:02,0.038s,PASSED
+"entidad.OpcionComun.darClick(findTestObject(""Object Repository/Select Items Page/ProductType""))",Firefox 72.0,,2020-02-24 12:47:02,2020-02-24 12:47:02,0.243s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/Select Items Page/ProductType""), findTestData(""Test Data"").getValue(3, 2), false)",Firefox 72.0,,2020-02-24 12:47:02,2020-02-24 12:47:02,0.292s,PASSED
+"entidad.OpcionComun.darClick(findTestObject(""Object Repository/Select Items Page/ProductsList""))",Firefox 72.0,,2020-02-24 12:47:02,2020-02-24 12:47:02,0.240s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/Select Items Page/ProductsList""), findTestData(""Test Data"").getValue(4, 4), false)",Firefox 72.0,,2020-02-24 12:47:02,2020-02-24 12:47:03,0.291s,PASSED
+"entidad.OpcionComun.darClick(findTestObject(""Object Repository/Select Items Page/BtnViewDetails""))",Firefox 72.0,,2020-02-24 12:47:03,2020-02-24 12:47:03,0.352s,PASSED
+"entidad.OpcionComun.objetoPresente(findTestObject(""Object Repository/Present Objects/3_BotonOrder""))",Firefox 72.0,,2020-02-24 12:47:03,2020-02-24 12:47:03,0.019s,PASSED
+"entidad.OpcionComun.darClick(findTestObject(""Object Repository/Select Items Page/BtnOrder""))",Firefox 72.0,,2020-02-24 12:47:03,2020-02-24 12:47:03,0.496s,PASSED
+"entidad.OpcionComun.objetoPresente(findTestObject(""Object Repository/Present Objects/4_OrderProducts""))",Firefox 72.0,,2020-02-24 12:47:03,2020-02-24 12:47:03,0.016s,PASSED
+"entidad.OpcionComun.darClick(findTestObject(""Object Repository/Select Items Page/HomeLink""))",Firefox 72.0,,2020-02-24 12:47:03,2020-02-24 12:47:04,0.286s,PASSED
+"entidad.OpcionComun.objetoPresente(findTestObject(""Object Repository/Present Objects/2_TextoSeleccionarProductos""))",Firefox 72.0,,2020-02-24 12:47:04,2020-02-24 12:47:04,0.016s,PASSED
+"entidad.OpcionComun.darClick(findTestObject(""Object Repository/Select Items Page/ProductType""))",Firefox 72.0,,2020-02-24 12:47:04,2020-02-24 12:47:04,0.235s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/Select Items Page/ProductType""), findTestData(""Test Data"").getValue(3, 2), false)",Firefox 72.0,,2020-02-24 12:47:04,2020-02-24 12:47:04,0.276s,PASSED
+"entidad.OpcionComun.darClick(findTestObject(""Object Repository/Select Items Page/ProductsList""))",Firefox 72.0,,2020-02-24 12:47:04,2020-02-24 12:47:05,0.234s,PASSED
+"entidad.OpcionComun.elegirElemento(findTestObject(""Object Repository/Select Items Page/ProductsList""), findTestData(""Test Data"").getValue(4, 5), false)",Firefox 72.0,,2020-02-24 12:47:05,2020-02-24 12:47:05,0.325s,PASSED
+"entidad.OpcionComun.darClick(findTestObject(""Object Repository/Select Items Page/BtnViewDetails""))",Firefox 72.0,,2020-02-24 12:47:05,2020-02-24 12:47:05,0.312s,PASSED
+"entidad.OpcionComun.objetoPresente(findTestObject(""Object Repository/Present Objects/3_BotonOrder""))",Firefox 72.0,,2020-02-24 12:47:05,2020-02-24 12:47:05,0.013s,PASSED
+"entidad.OpcionComun.darClick(findTestObject(""Object Repository/Select Items Page/BtnOrder""))",Firefox 72.0,,2020-02-24 12:47:05,2020-02-24 12:47:06,0.535s,PASSED
+,,,,,,
+Test Cases/Purchase,Firefox 72.0,"Se completa la información requerida como nombre, dirección.",2020-02-24 12:47:06,2020-02-24 12:47:13,6.942s,PASSED
+"entidad.OpcionComun.objetoPresente(findTestObject(""Object Repository/Present Objects/4_OrderProducts""))",Firefox 72.0,,2020-02-24 12:47:06,2020-02-24 12:47:06,0.054s,PASSED
+"takeScreenshot(""C:\Users\admin\Downloads\KatalonProjectScreenshots\5_OrderDetailPage.png"")",Firefox 72.0,,2020-02-24 12:47:06,2020-02-24 12:47:06,0.099s,PASSED
+"entidad.OpcionComun.darClick(findTestObject(""Object Repository/Cart Page/BtnEditCart""))",Firefox 72.0,,2020-02-24 12:47:06,2020-02-24 12:47:06,0.375s,PASSED
+"entidad.OpcionComun.objetoPresente(findTestObject(""Object Repository/Present Objects/5_TextoOrderDetails""))",Firefox 72.0,,2020-02-24 12:47:06,2020-02-24 12:47:06,0.012s,PASSED
+"entidad.OpcionComun.darClick(findTestObject(""Object Repository/Cart Page/BtnNext""))",Firefox 72.0,,2020-02-24 12:47:06,2020-02-24 12:47:07,0.239s,PASSED
+"entidad.OpcionComun.objetoPresente(findTestObject(""Object Repository/Present Objects/6_TextoDatosPersonales""))",Firefox 72.0,,2020-02-24 12:47:07,2020-02-24 12:47:07,0.009s,PASSED
+"entidad.OpcionComun.escribirTexto(findTestObject(""Object Repository/Personal Info Page/FirstName1""), findTestData(""Test Data"").getValue(6, 1))",Firefox 72.0,,2020-02-24 12:47:07,2020-02-24 12:47:07,0.062s,PASSED
+"entidad.OpcionComun.escribirTexto(findTestObject(""Object Repository/Personal Info Page/LastName1""), findTestData(""Test Data"").getValue(6, 2))",Firefox 72.0,,2020-02-24 12:47:07,2020-02-24 12:47:07,0.150s,PASSED
+"entidad.OpcionComun.escribirTexto(findTestObject(""Object Repository/Personal Info Page/CompanyName1""), findTestData(""Test Data"").getValue(6, 3))",Firefox 72.0,,2020-02-24 12:47:07,2020-02-24 12:47:07,0.069s,PASSED
+"entidad.OpcionComun.escribirTexto(findTestObject(""Object Repository/Personal Info Page/StreetAddress1""), findTestData(""Test Data"").getValue(6, 4))",Firefox 72.0,,2020-02-24 12:47:07,2020-02-24 12:47:07,0.078s,PASSED
+"entidad.OpcionComun.escribirTexto(findTestObject(""Object Repository/Personal Info Page/ZipCode1""), findTestData(""Test Data"").getValue(6, 5))",Firefox 72.0,,2020-02-24 12:47:07,2020-02-24 12:47:07,0.095s,PASSED
+"entidad.OpcionComun.escribirTexto(findTestObject(""Object Repository/Personal Info Page/AreaCode""), findTestData(""Test Data"").getValue(6, 6))",Firefox 72.0,,2020-02-24 12:47:07,2020-02-24 12:47:07,0.065s,PASSED
+"entidad.OpcionComun.escribirTexto(findTestObject(""Object Repository/Personal Info Page/PrimaryPhone""), findTestData(""Test Data"").getValue(6, 7))",Firefox 72.0,,2020-02-24 12:47:07,2020-02-24 12:47:07,0.072s,PASSED
+"entidad.OpcionComun.escribirTexto(findTestObject(""Object Repository/Personal Info Page/FirstName2""), findTestData(""Test Data"").getValue(7, 1))",Firefox 72.0,,2020-02-24 12:47:07,2020-02-24 12:47:07,0.071s,PASSED
+"entidad.OpcionComun.escribirTexto(findTestObject(""Object Repository/Personal Info Page/LastName2""), findTestData(""Test Data"").getValue(7, 2))",Firefox 72.0,,2020-02-24 12:47:07,2020-02-24 12:47:07,0.074s,PASSED
+"entidad.OpcionComun.escribirTexto(findTestObject(""Object Repository/Personal Info Page/CompanyName2""), findTestData(""Test Data"").getValue(7, 3))",Firefox 72.0,,2020-02-24 12:47:07,2020-02-24 12:47:07,0.046s,PASSED
+"entidad.OpcionComun.escribirTexto(findTestObject(""Object Repository/Personal Info Page/StreetAddress2""), findTestData(""Test Data"").getValue(7, 4))",Firefox 72.0,,2020-02-24 12:47:07,2020-02-24 12:47:08,0.050s,PASSED
+"entidad.OpcionComun.escribirTexto(findTestObject(""Object Repository/Personal Info Page/ZipCode2""), findTestData(""Test Data"").getValue(7, 5))",Firefox 72.0,,2020-02-24 12:47:08,2020-02-24 12:47:08,0.050s,PASSED
+"entidad.OpcionComun.escribirTexto(findTestObject(""Object Repository/Personal Info Page/EmailAddress""), findTestData(""Test Data"").getValue(7, 6))",Firefox 72.0,,2020-02-24 12:47:08,2020-02-24 12:47:08,0.058s,PASSED
+"entidad.OpcionComun.darClick(findTestObject(""Object Repository/Personal Info Page/BtnNextAfterAddresses""))",Firefox 72.0,,2020-02-24 12:47:08,2020-02-24 12:47:08,0.235s,PASSED
+"entidad.OpcionComun.objetoPresente(findTestObject(""Object Repository/Present Objects/7_TextoDatosPago""))",Firefox 72.0,,2020-02-24 12:47:08,2020-02-24 12:47:08,0.010s,PASSED
+"entidad.OpcionComun.darClick(findTestObject(""Object Repository/Payment Info Page/CardType""))",Firefox 72.0,,2020-02-24 12:47:08,2020-02-24 12:47:08,0.227s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/Payment Info Page/CardType""), findTestData(""Test Data"").getValue(8, 1), false)",Firefox 72.0,,2020-02-24 12:47:08,2020-02-24 12:47:08,0.250s,PASSED
+"entidad.OpcionComun.escribirTexto(findTestObject(""Object Repository/Payment Info Page/SecurityCode""), findTestData(""Test Data"").getValue(8, 2))",Firefox 72.0,,2020-02-24 12:47:08,2020-02-24 12:47:08,0.044s,PASSED
+"entidad.OpcionComun.escribirTexto(findTestObject(""Object Repository/Payment Info Page/CardNumber""), findTestData(""Test Data"").getValue(8, 3))",Firefox 72.0,,2020-02-24 12:47:08,2020-02-24 12:47:08,0.047s,PASSED
+"entidad.OpcionComun.darClick(findTestObject(""Object Repository/Payment Info Page/ExpirationMonth""))",Firefox 72.0,,2020-02-24 12:47:08,2020-02-24 12:47:09,0.236s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/Payment Info Page/ExpirationMonth""), findTestData(""Test Data"").getValue(8, 4), false)",Firefox 72.0,,2020-02-24 12:47:09,2020-02-24 12:47:09,0.248s,PASSED
+"entidad.OpcionComun.darClick(findTestObject(""Object Repository/Payment Info Page/ExpirationYear""))",Firefox 72.0,,2020-02-24 12:47:09,2020-02-24 12:47:09,0.249s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/Payment Info Page/ExpirationYear""), findTestData(""Test Data"").getValue(8, 5), false)",Firefox 72.0,,2020-02-24 12:47:09,2020-02-24 12:47:09,0.261s,PASSED
+"entidad.OpcionComun.darClick(findTestObject(""Object Repository/Payment Info Page/BtnSubmitAfterPayment""))",Firefox 72.0,,2020-02-24 12:47:09,2020-02-24 12:47:10,0.480s,PASSED
+"entidad.OpcionComun.objetoPresente(findTestObject(""Object Repository/Present Objects/8_TextoOrdenExitosa""))",Firefox 72.0,,2020-02-24 12:47:10,2020-02-24 12:47:10,0.019s,PASSED
+closeBrowser(),Firefox 72.0,,2020-02-24 12:47:10,2020-02-24 12:47:13,2.709s,PASSED

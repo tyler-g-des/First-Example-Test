@@ -1,0 +1,674 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite Chrome" time="74.062" tests="2" failures="0" errors="0">
+   <testsuite name="Test Suite Chrome" tests="2" failures="0" errors="0" time="74.062" timestamp="2020-05-12 14:59:52" hostname="tyler.diaz - DESKTOP-KJ1LQ8U" id="Test Suites/Test Suite Chrome">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\tyler.diaz\\Desktop\\FirstExample\\Reports\\20200512_145950\\Test Suite Chrome\\20200512_145950"/>
+         <property name="logFiles" value="C:\\Users\\tyler.diaz\\Desktop\\FirstExample\\Reports\\20200512_145950\\Test Suite Chrome\\20200512_145950\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\tyler.diaz\\Downloads\\5_OrderDetailPage.png"/>
+         <property name="hostName" value="tyler.diaz - DESKTOP-KJ1LQ8U"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.4.0.1"/>
+         <property name="browser" value="Chrome 81.0.4044.138"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="ac3e870cc6f2ab7e4e81df65a08629ed"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/LoginAndSelectProducts" time="43.154" classname="Test Cases/LoginAndSelectProducts" status="PASSED">
+         <system-out><![CDATA[2020-05-12 14:59:52 - [TEST_CASE][PASSED] - Test Cases/LoginAndSelectProducts: Test Cases/LoginAndSelectProducts
+
+2020-05-12 14:59:53 - [TEST_STEP][PASSED] - Start listener action : onTestCaseStart: null
+
+2020-05-12 14:59:53 - [TEST_STEP][PASSED] - println("
+..... I am inside onTestCaseStart function"): null
+
+2020-05-12 14:59:53 - [TEST_STEP][PASSED] - openBrowser("http://training.openspan.com/login"): Browser is opened with url: 'http://training.openspan.com/login'
+
+2020-05-12 14:59:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-12 14:59:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-05-12 14:59:58 - [MESSAGE][PASSED] - Browser is opened with url: 'http://training.openspan.com/login'
+
+2020-05-12 14:59:58 - [TEST_STEP][PASSED] - entidad.OpcionComun.objetoPresente(findTestObject("Object Repository/Present Objects/1_TextoLogin")): entidad.OpcionComun.objetoPresente is PASSED
+
+2020-05-12 14:59:58 - [MESSAGE][PASSED] - Object 'Object Repository/Present Objects/1_TextoLogin' is present
+
+2020-05-12 14:59:58 - [MESSAGE][INFO] - La página a la que se ha accedido es correcta
+
+2020-05-12 14:59:58 - [MESSAGE][PASSED] - entidad.OpcionComun.objetoPresente is PASSED
+
+2020-05-12 14:59:58 - [TEST_STEP][PASSED] - entidad.OpcionComun.escribirTexto(findTestObject("Object Repository/SignIn Page/Username"), findTestData("Test Data").getValue(1, 1)): entidad.OpcionComun.escribirTexto is PASSED
+
+2020-05-12 14:59:59 - [MESSAGE][PASSED] - Object 'Object Repository/SignIn Page/Username' is present
+
+2020-05-12 15:00:00 - [MESSAGE][PASSED] - Text 'luisca1606' is set on object 'Object Repository/SignIn Page/Username'
+
+2020-05-12 15:00:00 - [MESSAGE][PASSED] - entidad.OpcionComun.escribirTexto is PASSED
+
+2020-05-12 15:00:00 - [TEST_STEP][PASSED] - entidad.OpcionComun.escribirTextoEncriptado(findTestObject("Object Repository/SignIn Page/Password"), findTestData("Test Data").getValue(2, 1)): entidad.OpcionComun.escribirTextoEncriptado is PASSED
+
+2020-05-12 15:00:00 - [MESSAGE][PASSED] - Object 'Object Repository/SignIn Page/Password' is present
+
+2020-05-12 15:00:01 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/SignIn Page/Password'
+
+2020-05-12 15:00:01 - [MESSAGE][PASSED] - entidad.OpcionComun.escribirTextoEncriptado is PASSED
+
+2020-05-12 15:00:01 - [TEST_STEP][PASSED] - entidad.OpcionComun.darClick(findTestObject("Object Repository/SignIn Page/SigninBtn")): entidad.OpcionComun.darClick is PASSED
+
+2020-05-12 15:00:01 - [MESSAGE][PASSED] - Object 'Object Repository/SignIn Page/SigninBtn' is present
+
+2020-05-12 15:00:02 - [MESSAGE][PASSED] - Object: 'Object Repository/SignIn Page/SigninBtn' is clicked on
+
+2020-05-12 15:00:02 - [MESSAGE][PASSED] - entidad.OpcionComun.darClick is PASSED
+
+2020-05-12 15:00:02 - [TEST_STEP][PASSED] - entidad.OpcionComun.objetoPresente(findTestObject("Object Repository/Present Objects/2_TextoSeleccionarProductos")): entidad.OpcionComun.objetoPresente is PASSED
+
+2020-05-12 15:00:03 - [MESSAGE][PASSED] - Object 'Object Repository/Present Objects/2_TextoSeleccionarProductos' is present
+
+2020-05-12 15:00:03 - [MESSAGE][INFO] - La página a la que se ha accedido es correcta
+
+2020-05-12 15:00:03 - [MESSAGE][PASSED] - entidad.OpcionComun.objetoPresente is PASSED
+
+2020-05-12 15:00:03 - [TEST_STEP][PASSED] - entidad.OpcionComun.darClick(findTestObject("Object Repository/Select Items Page/ProductType")): entidad.OpcionComun.darClick is PASSED
+
+2020-05-12 15:00:03 - [MESSAGE][PASSED] - Object 'Object Repository/Select Items Page/ProductType' is present
+
+2020-05-12 15:00:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Select Items Page/ProductType' is clicked on
+
+2020-05-12 15:00:03 - [MESSAGE][PASSED] - entidad.OpcionComun.darClick is PASSED
+
+2020-05-12 15:00:03 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/Select Items Page/ProductType"), findTestData("Test Data").getValue(3, 1), false): All options with label 'Beverages' are selected in object 'Object Repository/Select Items Page/ProductType' 
+
+2020-05-12 15:00:04 - [MESSAGE][PASSED] - All options with label 'Beverages' are selected in object 'Object Repository/Select Items Page/ProductType' 
+
+2020-05-12 15:00:04 - [TEST_STEP][PASSED] - entidad.OpcionComun.darClick(findTestObject("Object Repository/Select Items Page/ProductsList")): entidad.OpcionComun.darClick is PASSED
+
+2020-05-12 15:00:04 - [MESSAGE][PASSED] - Object 'Object Repository/Select Items Page/ProductsList' is present
+
+2020-05-12 15:00:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Select Items Page/ProductsList' is clicked on
+
+2020-05-12 15:00:05 - [MESSAGE][PASSED] - entidad.OpcionComun.darClick is PASSED
+
+2020-05-12 15:00:05 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/Select Items Page/ProductsList"), findTestData("Test Data").getValue(4, 1), false): All options with label 'Ipoh Coffee' are selected in object 'Object Repository/Select Items Page/ProductsList' 
+
+2020-05-12 15:00:05 - [MESSAGE][PASSED] - All options with label 'Ipoh Coffee' are selected in object 'Object Repository/Select Items Page/ProductsList' 
+
+2020-05-12 15:00:05 - [TEST_STEP][PASSED] - entidad.OpcionComun.darClick(findTestObject("Object Repository/Select Items Page/BtnViewDetails")): entidad.OpcionComun.darClick is PASSED
+
+2020-05-12 15:00:06 - [MESSAGE][PASSED] - Object 'Object Repository/Select Items Page/BtnViewDetails' is present
+
+2020-05-12 15:00:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Select Items Page/BtnViewDetails' is clicked on
+
+2020-05-12 15:00:06 - [MESSAGE][PASSED] - entidad.OpcionComun.darClick is PASSED
+
+2020-05-12 15:00:06 - [TEST_STEP][PASSED] - entidad.OpcionComun.objetoPresente(findTestObject("Object Repository/Present Objects/3_BotonOrder")): entidad.OpcionComun.objetoPresente is PASSED
+
+2020-05-12 15:00:07 - [MESSAGE][PASSED] - Object 'Object Repository/Present Objects/3_BotonOrder' is present
+
+2020-05-12 15:00:07 - [MESSAGE][INFO] - La página a la que se ha accedido es correcta
+
+2020-05-12 15:00:07 - [MESSAGE][PASSED] - entidad.OpcionComun.objetoPresente is PASSED
+
+2020-05-12 15:00:07 - [TEST_STEP][PASSED] - entidad.OpcionComun.darClick(findTestObject("Object Repository/Select Items Page/BtnOrder")): entidad.OpcionComun.darClick is PASSED
+
+2020-05-12 15:00:07 - [MESSAGE][PASSED] - Object 'Object Repository/Select Items Page/BtnOrder' is present
+
+2020-05-12 15:00:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Select Items Page/BtnOrder' is clicked on
+
+2020-05-12 15:00:08 - [MESSAGE][PASSED] - entidad.OpcionComun.darClick is PASSED
+
+2020-05-12 15:00:08 - [TEST_STEP][PASSED] - entidad.OpcionComun.objetoPresente(findTestObject("Object Repository/Present Objects/4_OrderProducts")): entidad.OpcionComun.objetoPresente is PASSED
+
+2020-05-12 15:00:08 - [MESSAGE][PASSED] - Object 'Object Repository/Present Objects/4_OrderProducts' is present
+
+2020-05-12 15:00:08 - [MESSAGE][INFO] - La página a la que se ha accedido es correcta
+
+2020-05-12 15:00:08 - [MESSAGE][PASSED] - entidad.OpcionComun.objetoPresente is PASSED
+
+2020-05-12 15:00:08 - [TEST_STEP][PASSED] - entidad.OpcionComun.darClick(findTestObject("Object Repository/Select Items Page/HomeLink")): entidad.OpcionComun.darClick is PASSED
+
+2020-05-12 15:00:08 - [MESSAGE][PASSED] - Object 'Object Repository/Select Items Page/HomeLink' is present
+
+2020-05-12 15:00:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Select Items Page/HomeLink' is clicked on
+
+2020-05-12 15:00:09 - [MESSAGE][PASSED] - entidad.OpcionComun.darClick is PASSED
+
+2020-05-12 15:00:09 - [TEST_STEP][PASSED] - entidad.OpcionComun.objetoPresente(findTestObject("Object Repository/Present Objects/2_TextoSeleccionarProductos")): entidad.OpcionComun.objetoPresente is PASSED
+
+2020-05-12 15:00:09 - [MESSAGE][PASSED] - Object 'Object Repository/Present Objects/2_TextoSeleccionarProductos' is present
+
+2020-05-12 15:00:09 - [MESSAGE][INFO] - La página a la que se ha accedido es correcta
+
+2020-05-12 15:00:09 - [MESSAGE][PASSED] - entidad.OpcionComun.objetoPresente is PASSED
+
+2020-05-12 15:00:09 - [TEST_STEP][PASSED] - entidad.OpcionComun.darClick(findTestObject("Object Repository/Select Items Page/ProductType")): entidad.OpcionComun.darClick is PASSED
+
+2020-05-12 15:00:10 - [MESSAGE][PASSED] - Object 'Object Repository/Select Items Page/ProductType' is present
+
+2020-05-12 15:00:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Select Items Page/ProductType' is clicked on
+
+2020-05-12 15:00:10 - [MESSAGE][PASSED] - entidad.OpcionComun.darClick is PASSED
+
+2020-05-12 15:00:10 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/Select Items Page/ProductType"), findTestData("Test Data").getValue(3, 1), false): All options with label 'Beverages' are selected in object 'Object Repository/Select Items Page/ProductType' 
+
+2020-05-12 15:00:11 - [MESSAGE][PASSED] - All options with label 'Beverages' are selected in object 'Object Repository/Select Items Page/ProductType' 
+
+2020-05-12 15:00:11 - [TEST_STEP][PASSED] - entidad.OpcionComun.darClick(findTestObject("Object Repository/Select Items Page/ProductsList")): entidad.OpcionComun.darClick is PASSED
+
+2020-05-12 15:00:11 - [MESSAGE][PASSED] - Object 'Object Repository/Select Items Page/ProductsList' is present
+
+2020-05-12 15:00:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Select Items Page/ProductsList' is clicked on
+
+2020-05-12 15:00:11 - [MESSAGE][PASSED] - entidad.OpcionComun.darClick is PASSED
+
+2020-05-12 15:00:11 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/Select Items Page/ProductsList"), findTestData("Test Data").getValue(4, 2), false): All options with label 'Outback Lager' are selected in object 'Object Repository/Select Items Page/ProductsList' 
+
+2020-05-12 15:00:12 - [MESSAGE][PASSED] - All options with label 'Outback Lager' are selected in object 'Object Repository/Select Items Page/ProductsList' 
+
+2020-05-12 15:00:12 - [TEST_STEP][PASSED] - entidad.OpcionComun.darClick(findTestObject("Object Repository/Select Items Page/BtnViewDetails")): entidad.OpcionComun.darClick is PASSED
+
+2020-05-12 15:00:12 - [MESSAGE][PASSED] - Object 'Object Repository/Select Items Page/BtnViewDetails' is present
+
+2020-05-12 15:00:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Select Items Page/BtnViewDetails' is clicked on
+
+2020-05-12 15:00:13 - [MESSAGE][PASSED] - entidad.OpcionComun.darClick is PASSED
+
+2020-05-12 15:00:13 - [TEST_STEP][PASSED] - entidad.OpcionComun.objetoPresente(findTestObject("Object Repository/Present Objects/3_BotonOrder")): entidad.OpcionComun.objetoPresente is PASSED
+
+2020-05-12 15:00:13 - [MESSAGE][PASSED] - Object 'Object Repository/Present Objects/3_BotonOrder' is present
+
+2020-05-12 15:00:13 - [MESSAGE][INFO] - La página a la que se ha accedido es correcta
+
+2020-05-12 15:00:13 - [MESSAGE][PASSED] - entidad.OpcionComun.objetoPresente is PASSED
+
+2020-05-12 15:00:13 - [TEST_STEP][PASSED] - entidad.OpcionComun.darClick(findTestObject("Object Repository/Select Items Page/BtnOrder")): entidad.OpcionComun.darClick is PASSED
+
+2020-05-12 15:00:14 - [MESSAGE][PASSED] - Object 'Object Repository/Select Items Page/BtnOrder' is present
+
+2020-05-12 15:00:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Select Items Page/BtnOrder' is clicked on
+
+2020-05-12 15:00:15 - [MESSAGE][PASSED] - entidad.OpcionComun.darClick is PASSED
+
+2020-05-12 15:00:15 - [TEST_STEP][PASSED] - entidad.OpcionComun.objetoPresente(findTestObject("Object Repository/Present Objects/4_OrderProducts")): entidad.OpcionComun.objetoPresente is PASSED
+
+2020-05-12 15:00:15 - [MESSAGE][PASSED] - Object 'Object Repository/Present Objects/4_OrderProducts' is present
+
+2020-05-12 15:00:15 - [MESSAGE][INFO] - La página a la que se ha accedido es correcta
+
+2020-05-12 15:00:15 - [MESSAGE][PASSED] - entidad.OpcionComun.objetoPresente is PASSED
+
+2020-05-12 15:00:15 - [TEST_STEP][PASSED] - entidad.OpcionComun.darClick(findTestObject("Object Repository/Select Items Page/HomeLink")): entidad.OpcionComun.darClick is PASSED
+
+2020-05-12 15:00:15 - [MESSAGE][PASSED] - Object 'Object Repository/Select Items Page/HomeLink' is present
+
+2020-05-12 15:00:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Select Items Page/HomeLink' is clicked on
+
+2020-05-12 15:00:16 - [MESSAGE][PASSED] - entidad.OpcionComun.darClick is PASSED
+
+2020-05-12 15:00:16 - [TEST_STEP][PASSED] - entidad.OpcionComun.objetoPresente(findTestObject("Object Repository/Present Objects/2_TextoSeleccionarProductos")): entidad.OpcionComun.objetoPresente is PASSED
+
+2020-05-12 15:00:16 - [MESSAGE][PASSED] - Object 'Object Repository/Present Objects/2_TextoSeleccionarProductos' is present
+
+2020-05-12 15:00:16 - [MESSAGE][INFO] - La página a la que se ha accedido es correcta
+
+2020-05-12 15:00:16 - [MESSAGE][PASSED] - entidad.OpcionComun.objetoPresente is PASSED
+
+2020-05-12 15:00:16 - [TEST_STEP][PASSED] - entidad.OpcionComun.darClick(findTestObject("Object Repository/Select Items Page/ProductType")): entidad.OpcionComun.darClick is PASSED
+
+2020-05-12 15:00:17 - [MESSAGE][PASSED] - Object 'Object Repository/Select Items Page/ProductType' is present
+
+2020-05-12 15:00:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Select Items Page/ProductType' is clicked on
+
+2020-05-12 15:00:17 - [MESSAGE][PASSED] - entidad.OpcionComun.darClick is PASSED
+
+2020-05-12 15:00:17 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/Select Items Page/ProductType"), findTestData("Test Data").getValue(3, 1), false): All options with label 'Beverages' are selected in object 'Object Repository/Select Items Page/ProductType' 
+
+2020-05-12 15:00:17 - [MESSAGE][PASSED] - All options with label 'Beverages' are selected in object 'Object Repository/Select Items Page/ProductType' 
+
+2020-05-12 15:00:17 - [TEST_STEP][PASSED] - entidad.OpcionComun.darClick(findTestObject("Object Repository/Select Items Page/ProductsList")): entidad.OpcionComun.darClick is PASSED
+
+2020-05-12 15:00:18 - [MESSAGE][PASSED] - Object 'Object Repository/Select Items Page/ProductsList' is present
+
+2020-05-12 15:00:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Select Items Page/ProductsList' is clicked on
+
+2020-05-12 15:00:18 - [MESSAGE][PASSED] - entidad.OpcionComun.darClick is PASSED
+
+2020-05-12 15:00:18 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/Select Items Page/ProductsList"), findTestData("Test Data").getValue(4, 3), false): All options with label 'Chai' are selected in object 'Object Repository/Select Items Page/ProductsList' 
+
+2020-05-12 15:00:19 - [MESSAGE][PASSED] - All options with label 'Chai' are selected in object 'Object Repository/Select Items Page/ProductsList' 
+
+2020-05-12 15:00:19 - [TEST_STEP][PASSED] - entidad.OpcionComun.darClick(findTestObject("Object Repository/Select Items Page/BtnViewDetails")): entidad.OpcionComun.darClick is PASSED
+
+2020-05-12 15:00:19 - [MESSAGE][PASSED] - Object 'Object Repository/Select Items Page/BtnViewDetails' is present
+
+2020-05-12 15:00:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Select Items Page/BtnViewDetails' is clicked on
+
+2020-05-12 15:00:20 - [MESSAGE][PASSED] - entidad.OpcionComun.darClick is PASSED
+
+2020-05-12 15:00:20 - [TEST_STEP][PASSED] - entidad.OpcionComun.objetoPresente(findTestObject("Object Repository/Present Objects/3_BotonOrder")): entidad.OpcionComun.objetoPresente is PASSED
+
+2020-05-12 15:00:21 - [MESSAGE][PASSED] - Object 'Object Repository/Present Objects/3_BotonOrder' is present
+
+2020-05-12 15:00:21 - [MESSAGE][INFO] - La página a la que se ha accedido es correcta
+
+2020-05-12 15:00:21 - [MESSAGE][PASSED] - entidad.OpcionComun.objetoPresente is PASSED
+
+2020-05-12 15:00:21 - [TEST_STEP][PASSED] - entidad.OpcionComun.darClick(findTestObject("Object Repository/Select Items Page/BtnOrder")): entidad.OpcionComun.darClick is PASSED
+
+2020-05-12 15:00:21 - [MESSAGE][PASSED] - Object 'Object Repository/Select Items Page/BtnOrder' is present
+
+2020-05-12 15:00:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Select Items Page/BtnOrder' is clicked on
+
+2020-05-12 15:00:22 - [MESSAGE][PASSED] - entidad.OpcionComun.darClick is PASSED
+
+2020-05-12 15:00:22 - [TEST_STEP][PASSED] - entidad.OpcionComun.objetoPresente(findTestObject("Object Repository/Present Objects/4_OrderProducts")): entidad.OpcionComun.objetoPresente is PASSED
+
+2020-05-12 15:00:22 - [MESSAGE][PASSED] - Object 'Object Repository/Present Objects/4_OrderProducts' is present
+
+2020-05-12 15:00:22 - [MESSAGE][INFO] - La página a la que se ha accedido es correcta
+
+2020-05-12 15:00:22 - [MESSAGE][PASSED] - entidad.OpcionComun.objetoPresente is PASSED
+
+2020-05-12 15:00:22 - [TEST_STEP][PASSED] - entidad.OpcionComun.darClick(findTestObject("Object Repository/Select Items Page/HomeLink")): entidad.OpcionComun.darClick is PASSED
+
+2020-05-12 15:00:22 - [MESSAGE][PASSED] - Object 'Object Repository/Select Items Page/HomeLink' is present
+
+2020-05-12 15:00:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Select Items Page/HomeLink' is clicked on
+
+2020-05-12 15:00:23 - [MESSAGE][PASSED] - entidad.OpcionComun.darClick is PASSED
+
+2020-05-12 15:00:23 - [TEST_STEP][PASSED] - entidad.OpcionComun.objetoPresente(findTestObject("Object Repository/Present Objects/2_TextoSeleccionarProductos")): entidad.OpcionComun.objetoPresente is PASSED
+
+2020-05-12 15:00:23 - [MESSAGE][PASSED] - Object 'Object Repository/Present Objects/2_TextoSeleccionarProductos' is present
+
+2020-05-12 15:00:23 - [MESSAGE][INFO] - La página a la que se ha accedido es correcta
+
+2020-05-12 15:00:23 - [MESSAGE][PASSED] - entidad.OpcionComun.objetoPresente is PASSED
+
+2020-05-12 15:00:23 - [TEST_STEP][PASSED] - entidad.OpcionComun.darClick(findTestObject("Object Repository/Select Items Page/ProductType")): entidad.OpcionComun.darClick is PASSED
+
+2020-05-12 15:00:24 - [MESSAGE][PASSED] - Object 'Object Repository/Select Items Page/ProductType' is present
+
+2020-05-12 15:00:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Select Items Page/ProductType' is clicked on
+
+2020-05-12 15:00:24 - [MESSAGE][PASSED] - entidad.OpcionComun.darClick is PASSED
+
+2020-05-12 15:00:24 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/Select Items Page/ProductType"), findTestData("Test Data").getValue(3, 2), false): All options with label 'Seasonings' are selected in object 'Object Repository/Select Items Page/ProductType' 
+
+2020-05-12 15:00:24 - [MESSAGE][PASSED] - All options with label 'Seasonings' are selected in object 'Object Repository/Select Items Page/ProductType' 
+
+2020-05-12 15:00:24 - [TEST_STEP][PASSED] - entidad.OpcionComun.darClick(findTestObject("Object Repository/Select Items Page/ProductsList")): entidad.OpcionComun.darClick is PASSED
+
+2020-05-12 15:00:25 - [MESSAGE][PASSED] - Object 'Object Repository/Select Items Page/ProductsList' is present
+
+2020-05-12 15:00:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Select Items Page/ProductsList' is clicked on
+
+2020-05-12 15:00:25 - [MESSAGE][PASSED] - entidad.OpcionComun.darClick is PASSED
+
+2020-05-12 15:00:25 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/Select Items Page/ProductsList"), findTestData("Test Data").getValue(4, 4), false): All options with label 'Genen Shouyu' are selected in object 'Object Repository/Select Items Page/ProductsList' 
+
+2020-05-12 15:00:26 - [MESSAGE][PASSED] - All options with label 'Genen Shouyu' are selected in object 'Object Repository/Select Items Page/ProductsList' 
+
+2020-05-12 15:00:26 - [TEST_STEP][PASSED] - entidad.OpcionComun.darClick(findTestObject("Object Repository/Select Items Page/BtnViewDetails")): entidad.OpcionComun.darClick is PASSED
+
+2020-05-12 15:00:26 - [MESSAGE][PASSED] - Object 'Object Repository/Select Items Page/BtnViewDetails' is present
+
+2020-05-12 15:00:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Select Items Page/BtnViewDetails' is clicked on
+
+2020-05-12 15:00:27 - [MESSAGE][PASSED] - entidad.OpcionComun.darClick is PASSED
+
+2020-05-12 15:00:27 - [TEST_STEP][PASSED] - entidad.OpcionComun.objetoPresente(findTestObject("Object Repository/Present Objects/3_BotonOrder")): entidad.OpcionComun.objetoPresente is PASSED
+
+2020-05-12 15:00:27 - [MESSAGE][PASSED] - Object 'Object Repository/Present Objects/3_BotonOrder' is present
+
+2020-05-12 15:00:27 - [MESSAGE][INFO] - La página a la que se ha accedido es correcta
+
+2020-05-12 15:00:27 - [MESSAGE][PASSED] - entidad.OpcionComun.objetoPresente is PASSED
+
+2020-05-12 15:00:27 - [TEST_STEP][PASSED] - entidad.OpcionComun.darClick(findTestObject("Object Repository/Select Items Page/BtnOrder")): entidad.OpcionComun.darClick is PASSED
+
+2020-05-12 15:00:28 - [MESSAGE][PASSED] - Object 'Object Repository/Select Items Page/BtnOrder' is present
+
+2020-05-12 15:00:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Select Items Page/BtnOrder' is clicked on
+
+2020-05-12 15:00:29 - [MESSAGE][PASSED] - entidad.OpcionComun.darClick is PASSED
+
+2020-05-12 15:00:29 - [TEST_STEP][PASSED] - entidad.OpcionComun.objetoPresente(findTestObject("Object Repository/Present Objects/4_OrderProducts")): entidad.OpcionComun.objetoPresente is PASSED
+
+2020-05-12 15:00:29 - [MESSAGE][PASSED] - Object 'Object Repository/Present Objects/4_OrderProducts' is present
+
+2020-05-12 15:00:29 - [MESSAGE][INFO] - La página a la que se ha accedido es correcta
+
+2020-05-12 15:00:29 - [MESSAGE][PASSED] - entidad.OpcionComun.objetoPresente is PASSED
+
+2020-05-12 15:00:29 - [TEST_STEP][PASSED] - entidad.OpcionComun.darClick(findTestObject("Object Repository/Select Items Page/HomeLink")): entidad.OpcionComun.darClick is PASSED
+
+2020-05-12 15:00:29 - [MESSAGE][PASSED] - Object 'Object Repository/Select Items Page/HomeLink' is present
+
+2020-05-12 15:00:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Select Items Page/HomeLink' is clicked on
+
+2020-05-12 15:00:30 - [MESSAGE][PASSED] - entidad.OpcionComun.darClick is PASSED
+
+2020-05-12 15:00:30 - [TEST_STEP][PASSED] - entidad.OpcionComun.objetoPresente(findTestObject("Object Repository/Present Objects/2_TextoSeleccionarProductos")): entidad.OpcionComun.objetoPresente is PASSED
+
+2020-05-12 15:00:30 - [MESSAGE][PASSED] - Object 'Object Repository/Present Objects/2_TextoSeleccionarProductos' is present
+
+2020-05-12 15:00:30 - [MESSAGE][INFO] - La página a la que se ha accedido es correcta
+
+2020-05-12 15:00:30 - [MESSAGE][PASSED] - entidad.OpcionComun.objetoPresente is PASSED
+
+2020-05-12 15:00:30 - [TEST_STEP][PASSED] - entidad.OpcionComun.darClick(findTestObject("Object Repository/Select Items Page/ProductType")): entidad.OpcionComun.darClick is PASSED
+
+2020-05-12 15:00:31 - [MESSAGE][PASSED] - Object 'Object Repository/Select Items Page/ProductType' is present
+
+2020-05-12 15:00:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Select Items Page/ProductType' is clicked on
+
+2020-05-12 15:00:31 - [MESSAGE][PASSED] - entidad.OpcionComun.darClick is PASSED
+
+2020-05-12 15:00:31 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/Select Items Page/ProductType"), findTestData("Test Data").getValue(3, 2), false): All options with label 'Seasonings' are selected in object 'Object Repository/Select Items Page/ProductType' 
+
+2020-05-12 15:00:32 - [MESSAGE][PASSED] - All options with label 'Seasonings' are selected in object 'Object Repository/Select Items Page/ProductType' 
+
+2020-05-12 15:00:32 - [TEST_STEP][PASSED] - entidad.OpcionComun.darClick(findTestObject("Object Repository/Select Items Page/ProductsList")): entidad.OpcionComun.darClick is PASSED
+
+2020-05-12 15:00:32 - [MESSAGE][PASSED] - Object 'Object Repository/Select Items Page/ProductsList' is present
+
+2020-05-12 15:00:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Select Items Page/ProductsList' is clicked on
+
+2020-05-12 15:00:32 - [MESSAGE][PASSED] - entidad.OpcionComun.darClick is PASSED
+
+2020-05-12 15:00:32 - [TEST_STEP][PASSED] - entidad.OpcionComun.elegirElemento(findTestObject("Object Repository/Select Items Page/ProductsList"), findTestData("Test Data").getValue(4, 5), false): entidad.OpcionComun.elegirElemento is PASSED
+
+2020-05-12 15:00:33 - [MESSAGE][PASSED] - All options with label 'Gula Malacca' are selected in object 'Object Repository/Select Items Page/ProductsList' 
+
+2020-05-12 15:00:33 - [MESSAGE][PASSED] - entidad.OpcionComun.elegirElemento is PASSED
+
+2020-05-12 15:00:33 - [TEST_STEP][PASSED] - entidad.OpcionComun.darClick(findTestObject("Object Repository/Select Items Page/BtnViewDetails")): entidad.OpcionComun.darClick is PASSED
+
+2020-05-12 15:00:33 - [MESSAGE][PASSED] - Object 'Object Repository/Select Items Page/BtnViewDetails' is present
+
+2020-05-12 15:00:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Select Items Page/BtnViewDetails' is clicked on
+
+2020-05-12 15:00:34 - [MESSAGE][PASSED] - entidad.OpcionComun.darClick is PASSED
+
+2020-05-12 15:00:34 - [TEST_STEP][PASSED] - entidad.OpcionComun.objetoPresente(findTestObject("Object Repository/Present Objects/3_BotonOrder")): entidad.OpcionComun.objetoPresente is PASSED
+
+2020-05-12 15:00:34 - [MESSAGE][PASSED] - Object 'Object Repository/Present Objects/3_BotonOrder' is present
+
+2020-05-12 15:00:34 - [MESSAGE][INFO] - La página a la que se ha accedido es correcta
+
+2020-05-12 15:00:34 - [MESSAGE][PASSED] - entidad.OpcionComun.objetoPresente is PASSED
+
+2020-05-12 15:00:34 - [TEST_STEP][PASSED] - entidad.OpcionComun.darClick(findTestObject("Object Repository/Select Items Page/BtnOrder")): entidad.OpcionComun.darClick is PASSED
+
+2020-05-12 15:00:35 - [MESSAGE][PASSED] - Object 'Object Repository/Select Items Page/BtnOrder' is present
+
+2020-05-12 15:00:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Select Items Page/BtnOrder' is clicked on
+
+2020-05-12 15:00:36 - [MESSAGE][PASSED] - entidad.OpcionComun.darClick is PASSED
+
+2020-05-12 15:00:36 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2020-05-12 15:00:36 - [TEST_STEP][PASSED] - println("
+..... I am inside sampleAfterTestCase function"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Purchase" time="23.13" classname="Test Cases/Purchase" status="PASSED">
+         <system-out><![CDATA[2020-05-12 15:00:36 - [TEST_CASE][PASSED] - Test Cases/Purchase: Test Cases/Purchase
+
+2020-05-12 15:00:36 - [TEST_STEP][PASSED] - Start listener action : onTestCaseStart: null
+
+2020-05-12 15:00:36 - [TEST_STEP][PASSED] - println("
+..... I am inside onTestCaseStart function"): null
+
+2020-05-12 15:00:36 - [TEST_STEP][PASSED] - entidad.OpcionComun.objetoPresente(findTestObject("Object Repository/Present Objects/4_OrderProducts")): entidad.OpcionComun.objetoPresente is PASSED
+
+2020-05-12 15:00:36 - [MESSAGE][PASSED] - Object 'Object Repository/Present Objects/4_OrderProducts' is present
+
+2020-05-12 15:00:36 - [MESSAGE][INFO] - La página a la que se ha accedido es correcta
+
+2020-05-12 15:00:36 - [MESSAGE][PASSED] - entidad.OpcionComun.objetoPresente is PASSED
+
+2020-05-12 15:00:36 - [TEST_STEP][PASSED] - takeScreenshot("C:\Users\tyler.diaz\Downloads\5_OrderDetailPage.png"): Taking screenshot successfully
+
+2020-05-12 15:00:37 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\tyler.diaz\\Downloads\\5_OrderDetailPage.png]]
+
+2020-05-12 15:00:37 - [TEST_STEP][PASSED] - entidad.OpcionComun.darClick(findTestObject("Object Repository/Cart Page/BtnEditCart")): entidad.OpcionComun.darClick is PASSED
+
+2020-05-12 15:00:37 - [MESSAGE][PASSED] - Object 'Object Repository/Cart Page/BtnEditCart' is present
+
+2020-05-12 15:00:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Cart Page/BtnEditCart' is clicked on
+
+2020-05-12 15:00:38 - [MESSAGE][PASSED] - entidad.OpcionComun.darClick is PASSED
+
+2020-05-12 15:00:38 - [TEST_STEP][PASSED] - entidad.OpcionComun.objetoPresente(findTestObject("Object Repository/Present Objects/5_TextoOrderDetails")): entidad.OpcionComun.objetoPresente is PASSED
+
+2020-05-12 15:00:38 - [MESSAGE][PASSED] - Object 'Object Repository/Present Objects/5_TextoOrderDetails' is present
+
+2020-05-12 15:00:38 - [MESSAGE][INFO] - La página a la que se ha accedido es correcta
+
+2020-05-12 15:00:38 - [MESSAGE][PASSED] - entidad.OpcionComun.objetoPresente is PASSED
+
+2020-05-12 15:00:38 - [TEST_STEP][PASSED] - entidad.OpcionComun.darClick(findTestObject("Object Repository/Cart Page/BtnNext")): entidad.OpcionComun.darClick is PASSED
+
+2020-05-12 15:00:38 - [MESSAGE][PASSED] - Object 'Object Repository/Cart Page/BtnNext' is present
+
+2020-05-12 15:00:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Cart Page/BtnNext' is clicked on
+
+2020-05-12 15:00:39 - [MESSAGE][PASSED] - entidad.OpcionComun.darClick is PASSED
+
+2020-05-12 15:00:39 - [TEST_STEP][PASSED] - entidad.OpcionComun.objetoPresente(findTestObject("Object Repository/Present Objects/6_TextoDatosPersonales")): entidad.OpcionComun.objetoPresente is PASSED
+
+2020-05-12 15:00:39 - [MESSAGE][PASSED] - Object 'Object Repository/Present Objects/6_TextoDatosPersonales' is present
+
+2020-05-12 15:00:39 - [MESSAGE][INFO] - La página a la que se ha accedido es correcta
+
+2020-05-12 15:00:39 - [MESSAGE][PASSED] - entidad.OpcionComun.objetoPresente is PASSED
+
+2020-05-12 15:00:39 - [TEST_STEP][PASSED] - entidad.OpcionComun.escribirTexto(findTestObject("Object Repository/Personal Info Page/FirstName1"), findTestData("Test Data").getValue(6, 1)): entidad.OpcionComun.escribirTexto is PASSED
+
+2020-05-12 15:00:39 - [MESSAGE][PASSED] - Object 'Object Repository/Personal Info Page/FirstName1' is present
+
+2020-05-12 15:00:40 - [MESSAGE][PASSED] - Text 'Luis' is set on object 'Object Repository/Personal Info Page/FirstName1'
+
+2020-05-12 15:00:40 - [MESSAGE][PASSED] - entidad.OpcionComun.escribirTexto is PASSED
+
+2020-05-12 15:00:40 - [TEST_STEP][PASSED] - entidad.OpcionComun.escribirTexto(findTestObject("Object Repository/Personal Info Page/LastName1"), findTestData("Test Data").getValue(6, 2)): entidad.OpcionComun.escribirTexto is PASSED
+
+2020-05-12 15:00:40 - [MESSAGE][PASSED] - Object 'Object Repository/Personal Info Page/LastName1' is present
+
+2020-05-12 15:00:41 - [MESSAGE][PASSED] - Text 'Sánchez' is set on object 'Object Repository/Personal Info Page/LastName1'
+
+2020-05-12 15:00:41 - [MESSAGE][PASSED] - entidad.OpcionComun.escribirTexto is PASSED
+
+2020-05-12 15:00:41 - [TEST_STEP][PASSED] - entidad.OpcionComun.escribirTexto(findTestObject("Object Repository/Personal Info Page/CompanyName1"), findTestData("Test Data").getValue(6, 3)): entidad.OpcionComun.escribirTexto is PASSED
+
+2020-05-12 15:00:41 - [MESSAGE][PASSED] - Object 'Object Repository/Personal Info Page/CompanyName1' is present
+
+2020-05-12 15:00:42 - [MESSAGE][PASSED] - Text 'Grupo Babel' is set on object 'Object Repository/Personal Info Page/CompanyName1'
+
+2020-05-12 15:00:42 - [MESSAGE][PASSED] - entidad.OpcionComun.escribirTexto is PASSED
+
+2020-05-12 15:00:42 - [TEST_STEP][PASSED] - entidad.OpcionComun.escribirTexto(findTestObject("Object Repository/Personal Info Page/StreetAddress1"), findTestData("Test Data").getValue(6, 4)): entidad.OpcionComun.escribirTexto is PASSED
+
+2020-05-12 15:00:42 - [MESSAGE][PASSED] - Object 'Object Repository/Personal Info Page/StreetAddress1' is present
+
+2020-05-12 15:00:43 - [MESSAGE][PASSED] - Text 'Heredia' is set on object 'Object Repository/Personal Info Page/StreetAddress1'
+
+2020-05-12 15:00:43 - [MESSAGE][PASSED] - entidad.OpcionComun.escribirTexto is PASSED
+
+2020-05-12 15:00:43 - [TEST_STEP][PASSED] - entidad.OpcionComun.escribirTexto(findTestObject("Object Repository/Personal Info Page/ZipCode1"), findTestData("Test Data").getValue(6, 5)): entidad.OpcionComun.escribirTexto is PASSED
+
+2020-05-12 15:00:43 - [MESSAGE][PASSED] - Object 'Object Repository/Personal Info Page/ZipCode1' is present
+
+2020-05-12 15:00:44 - [MESSAGE][PASSED] - Text '40101' is set on object 'Object Repository/Personal Info Page/ZipCode1'
+
+2020-05-12 15:00:44 - [MESSAGE][PASSED] - entidad.OpcionComun.escribirTexto is PASSED
+
+2020-05-12 15:00:44 - [TEST_STEP][PASSED] - entidad.OpcionComun.escribirTexto(findTestObject("Object Repository/Personal Info Page/AreaCode"), findTestData("Test Data").getValue(6, 6)): entidad.OpcionComun.escribirTexto is PASSED
+
+2020-05-12 15:00:44 - [MESSAGE][PASSED] - Object 'Object Repository/Personal Info Page/AreaCode' is present
+
+2020-05-12 15:00:44 - [MESSAGE][PASSED] - Text '40101' is set on object 'Object Repository/Personal Info Page/AreaCode'
+
+2020-05-12 15:00:44 - [MESSAGE][PASSED] - entidad.OpcionComun.escribirTexto is PASSED
+
+2020-05-12 15:00:44 - [TEST_STEP][PASSED] - entidad.OpcionComun.escribirTexto(findTestObject("Object Repository/Personal Info Page/PrimaryPhone"), findTestData("Test Data").getValue(6, 7)): entidad.OpcionComun.escribirTexto is PASSED
+
+2020-05-12 15:00:45 - [MESSAGE][PASSED] - Object 'Object Repository/Personal Info Page/PrimaryPhone' is present
+
+2020-05-12 15:00:45 - [MESSAGE][PASSED] - Text '85727521' is set on object 'Object Repository/Personal Info Page/PrimaryPhone'
+
+2020-05-12 15:00:45 - [MESSAGE][PASSED] - entidad.OpcionComun.escribirTexto is PASSED
+
+2020-05-12 15:00:45 - [TEST_STEP][PASSED] - entidad.OpcionComun.escribirTexto(findTestObject("Object Repository/Personal Info Page/FirstName2"), findTestData("Test Data").getValue(7, 1)): entidad.OpcionComun.escribirTexto is PASSED
+
+2020-05-12 15:00:46 - [MESSAGE][PASSED] - Object 'Object Repository/Personal Info Page/FirstName2' is present
+
+2020-05-12 15:00:46 - [MESSAGE][PASSED] - Text 'Mariana' is set on object 'Object Repository/Personal Info Page/FirstName2'
+
+2020-05-12 15:00:46 - [MESSAGE][PASSED] - entidad.OpcionComun.escribirTexto is PASSED
+
+2020-05-12 15:00:46 - [TEST_STEP][PASSED] - entidad.OpcionComun.escribirTexto(findTestObject("Object Repository/Personal Info Page/LastName2"), findTestData("Test Data").getValue(7, 2)): entidad.OpcionComun.escribirTexto is PASSED
+
+2020-05-12 15:00:46 - [MESSAGE][PASSED] - Object 'Object Repository/Personal Info Page/LastName2' is present
+
+2020-05-12 15:00:47 - [MESSAGE][PASSED] - Text 'Rodríguez' is set on object 'Object Repository/Personal Info Page/LastName2'
+
+2020-05-12 15:00:47 - [MESSAGE][PASSED] - entidad.OpcionComun.escribirTexto is PASSED
+
+2020-05-12 15:00:47 - [TEST_STEP][PASSED] - entidad.OpcionComun.escribirTexto(findTestObject("Object Repository/Personal Info Page/CompanyName2"), findTestData("Test Data").getValue(7, 3)): entidad.OpcionComun.escribirTexto is PASSED
+
+2020-05-12 15:00:47 - [MESSAGE][PASSED] - Object 'Object Repository/Personal Info Page/CompanyName2' is present
+
+2020-05-12 15:00:48 - [MESSAGE][PASSED] - Text 'IBM' is set on object 'Object Repository/Personal Info Page/CompanyName2'
+
+2020-05-12 15:00:48 - [MESSAGE][PASSED] - entidad.OpcionComun.escribirTexto is PASSED
+
+2020-05-12 15:00:48 - [TEST_STEP][PASSED] - entidad.OpcionComun.escribirTexto(findTestObject("Object Repository/Personal Info Page/StreetAddress2"), findTestData("Test Data").getValue(7, 4)): entidad.OpcionComun.escribirTexto is PASSED
+
+2020-05-12 15:00:48 - [MESSAGE][PASSED] - Object 'Object Repository/Personal Info Page/StreetAddress2' is present
+
+2020-05-12 15:00:49 - [MESSAGE][PASSED] - Text 'San José' is set on object 'Object Repository/Personal Info Page/StreetAddress2'
+
+2020-05-12 15:00:49 - [MESSAGE][PASSED] - entidad.OpcionComun.escribirTexto is PASSED
+
+2020-05-12 15:00:49 - [TEST_STEP][PASSED] - entidad.OpcionComun.escribirTexto(findTestObject("Object Repository/Personal Info Page/ZipCode2"), findTestData("Test Data").getValue(7, 5)): entidad.OpcionComun.escribirTexto is PASSED
+
+2020-05-12 15:00:49 - [MESSAGE][PASSED] - Object 'Object Repository/Personal Info Page/ZipCode2' is present
+
+2020-05-12 15:00:50 - [MESSAGE][PASSED] - Text '10101' is set on object 'Object Repository/Personal Info Page/ZipCode2'
+
+2020-05-12 15:00:50 - [MESSAGE][PASSED] - entidad.OpcionComun.escribirTexto is PASSED
+
+2020-05-12 15:00:50 - [TEST_STEP][PASSED] - entidad.OpcionComun.escribirTexto(findTestObject("Object Repository/Personal Info Page/EmailAddress"), findTestData("Test Data").getValue(7, 6)): entidad.OpcionComun.escribirTexto is PASSED
+
+2020-05-12 15:00:50 - [MESSAGE][PASSED] - Object 'Object Repository/Personal Info Page/EmailAddress' is present
+
+2020-05-12 15:00:50 - [MESSAGE][PASSED] - Text 'luisca.1606@hotmail.com' is set on object 'Object Repository/Personal Info Page/EmailAddress'
+
+2020-05-12 15:00:50 - [MESSAGE][PASSED] - entidad.OpcionComun.escribirTexto is PASSED
+
+2020-05-12 15:00:50 - [TEST_STEP][PASSED] - entidad.OpcionComun.darClick(findTestObject("Object Repository/Personal Info Page/BtnNextAfterAddresses")): entidad.OpcionComun.darClick is PASSED
+
+2020-05-12 15:00:51 - [MESSAGE][PASSED] - Object 'Object Repository/Personal Info Page/BtnNextAfterAddresses' is present
+
+2020-05-12 15:00:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Personal Info Page/BtnNextAfterAddresses' is clicked on
+
+2020-05-12 15:00:51 - [MESSAGE][PASSED] - entidad.OpcionComun.darClick is PASSED
+
+2020-05-12 15:00:51 - [TEST_STEP][PASSED] - entidad.OpcionComun.objetoPresente(findTestObject("Object Repository/Present Objects/7_TextoDatosPago")): entidad.OpcionComun.objetoPresente is PASSED
+
+2020-05-12 15:00:52 - [MESSAGE][PASSED] - Object 'Object Repository/Present Objects/7_TextoDatosPago' is present
+
+2020-05-12 15:00:52 - [MESSAGE][INFO] - La página a la que se ha accedido es correcta
+
+2020-05-12 15:00:52 - [MESSAGE][PASSED] - entidad.OpcionComun.objetoPresente is PASSED
+
+2020-05-12 15:00:52 - [TEST_STEP][PASSED] - entidad.OpcionComun.darClick(findTestObject("Object Repository/Payment Info Page/CardType")): entidad.OpcionComun.darClick is PASSED
+
+2020-05-12 15:00:52 - [MESSAGE][PASSED] - Object 'Object Repository/Payment Info Page/CardType' is present
+
+2020-05-12 15:00:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment Info Page/CardType' is clicked on
+
+2020-05-12 15:00:52 - [MESSAGE][PASSED] - entidad.OpcionComun.darClick is PASSED
+
+2020-05-12 15:00:52 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/Payment Info Page/CardType"), findTestData("Test Data").getValue(8, 1), false): All options with label 'Visa' are selected in object 'Object Repository/Payment Info Page/CardType' 
+
+2020-05-12 15:00:53 - [MESSAGE][PASSED] - All options with label 'Visa' are selected in object 'Object Repository/Payment Info Page/CardType' 
+
+2020-05-12 15:00:53 - [TEST_STEP][PASSED] - entidad.OpcionComun.escribirTexto(findTestObject("Object Repository/Payment Info Page/SecurityCode"), findTestData("Test Data").getValue(8, 2)): entidad.OpcionComun.escribirTexto is PASSED
+
+2020-05-12 15:00:53 - [MESSAGE][PASSED] - Object 'Object Repository/Payment Info Page/SecurityCode' is present
+
+2020-05-12 15:00:54 - [MESSAGE][PASSED] - Text '983' is set on object 'Object Repository/Payment Info Page/SecurityCode'
+
+2020-05-12 15:00:54 - [MESSAGE][PASSED] - entidad.OpcionComun.escribirTexto is PASSED
+
+2020-05-12 15:00:54 - [TEST_STEP][PASSED] - entidad.OpcionComun.escribirTexto(findTestObject("Object Repository/Payment Info Page/CardNumber"), findTestData("Test Data").getValue(8, 3)): entidad.OpcionComun.escribirTexto is PASSED
+
+2020-05-12 15:00:54 - [MESSAGE][PASSED] - Object 'Object Repository/Payment Info Page/CardNumber' is present
+
+2020-05-12 15:00:54 - [MESSAGE][PASSED] - Text '4570' is set on object 'Object Repository/Payment Info Page/CardNumber'
+
+2020-05-12 15:00:54 - [MESSAGE][PASSED] - entidad.OpcionComun.escribirTexto is PASSED
+
+2020-05-12 15:00:54 - [TEST_STEP][PASSED] - entidad.OpcionComun.darClick(findTestObject("Object Repository/Payment Info Page/ExpirationMonth")): entidad.OpcionComun.darClick is PASSED
+
+2020-05-12 15:00:55 - [MESSAGE][PASSED] - Object 'Object Repository/Payment Info Page/ExpirationMonth' is present
+
+2020-05-12 15:00:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment Info Page/ExpirationMonth' is clicked on
+
+2020-05-12 15:00:55 - [MESSAGE][PASSED] - entidad.OpcionComun.darClick is PASSED
+
+2020-05-12 15:00:55 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/Payment Info Page/ExpirationMonth"), findTestData("Test Data").getValue(8, 4), false): All options with label 'June' are selected in object 'Object Repository/Payment Info Page/ExpirationMonth' 
+
+2020-05-12 15:00:56 - [MESSAGE][PASSED] - All options with label 'June' are selected in object 'Object Repository/Payment Info Page/ExpirationMonth' 
+
+2020-05-12 15:00:56 - [TEST_STEP][PASSED] - entidad.OpcionComun.darClick(findTestObject("Object Repository/Payment Info Page/ExpirationYear")): entidad.OpcionComun.darClick is PASSED
+
+2020-05-12 15:00:56 - [MESSAGE][PASSED] - Object 'Object Repository/Payment Info Page/ExpirationYear' is present
+
+2020-05-12 15:00:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment Info Page/ExpirationYear' is clicked on
+
+2020-05-12 15:00:56 - [MESSAGE][PASSED] - entidad.OpcionComun.darClick is PASSED
+
+2020-05-12 15:00:56 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/Payment Info Page/ExpirationYear"), findTestData("Test Data").getValue(8, 5), false): All options with label '2014' are selected in object 'Object Repository/Payment Info Page/ExpirationYear' 
+
+2020-05-12 15:00:57 - [MESSAGE][PASSED] - All options with label '2014' are selected in object 'Object Repository/Payment Info Page/ExpirationYear' 
+
+2020-05-12 15:00:57 - [TEST_STEP][PASSED] - entidad.OpcionComun.darClick(findTestObject("Object Repository/Payment Info Page/BtnSubmitAfterPayment")): entidad.OpcionComun.darClick is PASSED
+
+2020-05-12 15:00:57 - [MESSAGE][PASSED] - Object 'Object Repository/Payment Info Page/BtnSubmitAfterPayment' is present
+
+2020-05-12 15:00:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment Info Page/BtnSubmitAfterPayment' is clicked on
+
+2020-05-12 15:00:58 - [MESSAGE][PASSED] - entidad.OpcionComun.darClick is PASSED
+
+2020-05-12 15:00:58 - [TEST_STEP][PASSED] - entidad.OpcionComun.objetoPresente(findTestObject("Object Repository/Present Objects/8_TextoOrdenExitosa")): entidad.OpcionComun.objetoPresente is PASSED
+
+2020-05-12 15:00:58 - [MESSAGE][PASSED] - Object 'Object Repository/Present Objects/8_TextoOrdenExitosa' is present
+
+2020-05-12 15:00:58 - [MESSAGE][INFO] - La página a la que se ha accedido es correcta
+
+2020-05-12 15:00:58 - [MESSAGE][PASSED] - entidad.OpcionComun.objetoPresente is PASSED
+
+2020-05-12 15:00:58 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-05-12 15:00:59 - [MESSAGE][PASSED] - Browser is closed
+
+2020-05-12 15:00:59 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2020-05-12 15:00:59 - [TEST_STEP][PASSED] - println("
+..... I am inside sampleAfterTestCase function"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-05-12 14:59:52 - [TEST_SUITE][PASSED] - Test Suite Chrome: Test Cases/Purchase]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

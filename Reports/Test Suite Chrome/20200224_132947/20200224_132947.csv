@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test Suite Chrome,Chrome 80.0.3987.116,,2020-02-24 13:29:53,2020-02-24 13:29:58,5.377s,FAILED
+,,,,,,
+Test Cases/LoginAndSelectProducts,Chrome 80.0.3987.116,Se autentica en la aplicación y realiza la compra de varios productos.,2020-02-24 13:29:53,2020-02-24 13:29:58,4.307s,FAILED
+"openBrowser(""http://training.openspan.com/login"")",Chrome 80.0.3987.116,,2020-02-24 13:29:54,2020-02-24 13:29:57,3.829s,PASSED
+"entidad.OpcionComun.objetoPresente(findTestObject(""Object Repository/Present Objects/1_TextoLogin""))",Chrome 80.0.3987.116,,2020-02-24 13:29:57,2020-02-24 13:29:58,0.090s,FAILED
+,,,,,,
+Test Cases/Purchase,Chrome 80.0.3987.116,"Se completa la información requerida como nombre, dirección.",2020-02-24 13:29:58,2020-02-24 13:29:58,0.243s,FAILED
+"entidad.OpcionComun.objetoPresente(findTestObject(""Object Repository/Present Objects/4_OrderProducts""))",Chrome 80.0.3987.116,,2020-02-24 13:29:58,2020-02-24 13:29:58,0.029s,FAILED

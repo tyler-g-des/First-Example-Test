@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite" time="0" tests="1" failures="0" errors="0">
+   <testsuite name="Test Suite" tests="1" failures="0" errors="0" time="0" timestamp="2020-02-24 09:45:16" hostname="admin - CR-LAP-LUI-SAN.grupobabel.com" id="Test Suites/Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\admin\\Katalon Studio\\FirstExample\\Reports\\Test Suite\\20200224_094510"/>
+         <property name="logFiles" value="C:\\Users\\admin\\Katalon Studio\\FirstExample\\Reports\\Test Suite\\20200224_094510\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="admin - CR-LAP-LUI-SAN.grupobabel.com"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.0.6.4"/>
+      </properties>
+      <testcase name="Test Cases/LoginAndSelectProducts" classname="Test Cases/LoginAndSelectProducts" status="PASSED">
+         <system-out><![CDATA[2020-02-24 09:45:17 - [TEST_CASE][PASSED] - Test Cases/LoginAndSelectProducts: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-02-24 09:45:16 - [TEST_SUITE][INCOMPLETE] - Test Suite: null]]></system-out>
+      <system-err><![CDATA[2020-02-24 09:45:16 - [TEST_SUITE][INCOMPLETE] - Test Suite: null]]></system-err>
+   </testsuite>
+</testsuites>

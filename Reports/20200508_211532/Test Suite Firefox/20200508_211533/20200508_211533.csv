@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite Firefox,,,,2020-05-08 21:15:38,2020-05-08 21:15:41,3.332s,FAILED
+,,,,,,,
+Test Cases/LoginAndSelectProducts,,Se autentica en la aplicación y realiza la compra de varios productos.,,2020-05-08 21:15:39,2020-05-08 21:15:41,2.141s,FAILED
+Start listener action : onTestCaseStart,,,,2020-05-08 21:15:39,2020-05-08 21:15:39,0.003s,PASSED
+"openBrowser(""http://training.openspan.com/login"")",,,,2020-05-08 21:15:40,2020-05-08 21:15:41,0.834s,FAILED
+Start listener action : sampleAfterTestCase,,,,2020-05-08 21:15:41,2020-05-08 21:15:41,0.003s,PASSED
+,,,,,,,
+Test Cases/Purchase,,"Se completa la información requerida como nombre, dirección.",,2020-05-08 21:15:41,2020-05-08 21:15:41,0.598s,FAILED
+Start listener action : onTestCaseStart,,,,2020-05-08 21:15:41,2020-05-08 21:15:41,0.003s,PASSED
+"entidad.OpcionComun.objetoPresente(findTestObject(""Object Repository/Present Objects/4_OrderProducts""))",,,,2020-05-08 21:15:41,2020-05-08 21:15:41,0.159s,FAILED
+Start listener action : sampleAfterTestCase,,,,2020-05-08 21:15:41,2020-05-08 21:15:41,0.001s,PASSED

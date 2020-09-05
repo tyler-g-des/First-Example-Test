@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Se autentica en la aplicación y realiza la compra de varios productos.</description>
+   <name>LoginAndSelectProducts</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e7067b14-2155-45bd-92c8-bc4fd3352fe5</testCaseGuid>
+</TestCaseEntity>

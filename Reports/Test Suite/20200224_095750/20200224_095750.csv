@@ -1,0 +1,55 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test Suite,Chrome 80.0.3987.116,,2020-02-24 09:57:56,2020-02-24 09:58:13,16.506s,FAILED
+,,,,,,
+Test Cases/LoginAndSelectProducts,Chrome 80.0.3987.116,Se autentica en la aplicación y realiza la compra de varios productos.,2020-02-24 09:57:56,2020-02-24 09:58:08,11.495s,FAILED
+"openBrowser(""http://training.openspan.com/login"")",Chrome 80.0.3987.116,,2020-02-24 09:57:57,2020-02-24 09:58:01,4.227s,PASSED
+"entidad.OpcionComun.objetoPresente(findTestObject(""Object Repository/Present Objects/1_TextoLogin""))",Chrome 80.0.3987.116,,2020-02-24 09:58:01,2020-02-24 09:58:01,0.092s,PASSED
+"entidad.OpcionComun.escribirTexto(findTestObject(""Object Repository/SignIn Page/Username""), findTestData(""Test Data"").getValue(1, 1))",Chrome 80.0.3987.116,,2020-02-24 09:58:01,2020-02-24 09:58:02,0.632s,PASSED
+"entidad.OpcionComun.escribirTextoEncriptado(findTestObject(""Object Repository/SignIn Page/Password""), findTestData(""Test Data"").getValue(2, 1))",Chrome 80.0.3987.116,,2020-02-24 09:58:02,2020-02-24 09:58:02,0.150s,PASSED
+"entidad.OpcionComun.darClick(findTestObject(""Object Repository/SignIn Page/SigninBtn""))",Chrome 80.0.3987.116,,2020-02-24 09:58:02,2020-02-24 09:58:02,0.682s,PASSED
+"entidad.OpcionComun.objetoPresente(findTestObject(""Object Repository/Present Objects/2_TextoSeleccionarProductos""))",Chrome 80.0.3987.116,,2020-02-24 09:58:02,2020-02-24 09:58:03,0.025s,PASSED
+"entidad.OpcionComun.darClick(findTestObject(""Object Repository/Select Items Page/ProductType""))",Chrome 80.0.3987.116,,2020-02-24 09:58:03,2020-02-24 09:58:03,0.117s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/Select Items Page/ProductType""), findTestData(""Test Data"").getValue(3, 1), false)",Chrome 80.0.3987.116,,2020-02-24 09:58:03,2020-02-24 09:58:03,0.138s,PASSED
+"entidad.OpcionComun.darClick(findTestObject(""Object Repository/Select Items Page/ProductsList""))",Chrome 80.0.3987.116,,2020-02-24 09:58:03,2020-02-24 09:58:03,0.130s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/Select Items Page/ProductsList""), findTestData(""Test Data"").getValue(4, 1), false)",Chrome 80.0.3987.116,,2020-02-24 09:58:03,2020-02-24 09:58:03,0.124s,PASSED
+"entidad.OpcionComun.darClick(findTestObject(""Object Repository/Select Items Page/BtnViewDetails""))",Chrome 80.0.3987.116,,2020-02-24 09:58:03,2020-02-24 09:58:03,0.419s,PASSED
+"entidad.OpcionComun.objetoPresente(findTestObject(""Object Repository/Present Objects/3_BotonOrder""))",Chrome 80.0.3987.116,,2020-02-24 09:58:03,2020-02-24 09:58:03,0.025s,PASSED
+"entidad.OpcionComun.darClick(findTestObject(""Object Repository/Select Items Page/BtnOrder""))",Chrome 80.0.3987.116,,2020-02-24 09:58:03,2020-02-24 09:58:04,0.644s,PASSED
+"entidad.OpcionComun.objetoPresente(findTestObject(""Object Repository/Present Objects/4_OrderProducts""))",Chrome 80.0.3987.116,,2020-02-24 09:58:04,2020-02-24 09:58:04,0.020s,PASSED
+"entidad.OpcionComun.darClick(findTestObject(""Object Repository/Select Items Page/HomeLink""))",Chrome 80.0.3987.116,,2020-02-24 09:58:04,2020-02-24 09:58:04,0.062s,PASSED
+"entidad.OpcionComun.objetoPresente(findTestObject(""Object Repository/Present Objects/2_TextoSeleccionarProductos""))",Chrome 80.0.3987.116,,2020-02-24 09:58:04,2020-02-24 09:58:04,0.016s,PASSED
+"entidad.OpcionComun.darClick(findTestObject(""Object Repository/Select Items Page/ProductType""))",Chrome 80.0.3987.116,,2020-02-24 09:58:04,2020-02-24 09:58:08,3.605s,FAILED
+,,,,,,
+Test Cases/Purchase,Chrome 80.0.3987.116,"Se completa la información requerida como nombre, dirección.",2020-02-24 09:58:08,2020-02-24 09:58:13,4.795s,PASSED
+"entidad.OpcionComun.objetoPresente(findTestObject(""Object Repository/Present Objects/4_OrderProducts""))",Chrome 80.0.3987.116,,2020-02-24 09:58:08,2020-02-24 09:58:08,0.031s,PASSED
+"takeScreenshot(""C:\Users\admin\Downloads\KatalonProjectScreenshots\5_OrderDetailPage.png"")",Chrome 80.0.3987.116,,2020-02-24 09:58:08,2020-02-24 09:58:08,0.270s,PASSED
+"entidad.OpcionComun.darClick(findTestObject(""Object Repository/Cart Page/BtnEditCart""))",Chrome 80.0.3987.116,,2020-02-24 09:58:08,2020-02-24 09:58:09,0.509s,PASSED
+"entidad.OpcionComun.objetoPresente(findTestObject(""Object Repository/Present Objects/5_TextoOrderDetails""))",Chrome 80.0.3987.116,,2020-02-24 09:58:09,2020-02-24 09:58:09,0.020s,PASSED
+"entidad.OpcionComun.darClick(findTestObject(""Object Repository/Cart Page/BtnNext""))",Chrome 80.0.3987.116,,2020-02-24 09:58:09,2020-02-24 09:58:09,0.090s,PASSED
+"entidad.OpcionComun.objetoPresente(findTestObject(""Object Repository/Present Objects/6_TextoDatosPersonales""))",Chrome 80.0.3987.116,,2020-02-24 09:58:09,2020-02-24 09:58:09,0.027s,PASSED
+"entidad.OpcionComun.escribirTexto(findTestObject(""Object Repository/Personal Info Page/FirstName1""), findTestData(""Test Data"").getValue(6, 1))",Chrome 80.0.3987.116,,2020-02-24 09:58:09,2020-02-24 09:58:09,0.113s,PASSED
+"entidad.OpcionComun.escribirTexto(findTestObject(""Object Repository/Personal Info Page/LastName1""), findTestData(""Test Data"").getValue(6, 2))",Chrome 80.0.3987.116,,2020-02-24 09:58:09,2020-02-24 09:58:09,0.129s,PASSED
+"entidad.OpcionComun.escribirTexto(findTestObject(""Object Repository/Personal Info Page/CompanyName1""), findTestData(""Test Data"").getValue(6, 3))",Chrome 80.0.3987.116,,2020-02-24 09:58:09,2020-02-24 09:58:09,0.124s,PASSED
+"entidad.OpcionComun.escribirTexto(findTestObject(""Object Repository/Personal Info Page/StreetAddress1""), findTestData(""Test Data"").getValue(6, 4))",Chrome 80.0.3987.116,,2020-02-24 09:58:09,2020-02-24 09:58:09,0.142s,PASSED
+"entidad.OpcionComun.escribirTexto(findTestObject(""Object Repository/Personal Info Page/ZipCode1""), findTestData(""Test Data"").getValue(6, 5))",Chrome 80.0.3987.116,,2020-02-24 09:58:09,2020-02-24 09:58:10,0.123s,PASSED
+"entidad.OpcionComun.escribirTexto(findTestObject(""Object Repository/Personal Info Page/AreaCode""), findTestData(""Test Data"").getValue(6, 6))",Chrome 80.0.3987.116,,2020-02-24 09:58:10,2020-02-24 09:58:10,0.121s,PASSED
+"entidad.OpcionComun.escribirTexto(findTestObject(""Object Repository/Personal Info Page/PrimaryPhone""), findTestData(""Test Data"").getValue(6, 7))",Chrome 80.0.3987.116,,2020-02-24 09:58:10,2020-02-24 09:58:10,0.117s,PASSED
+"entidad.OpcionComun.escribirTexto(findTestObject(""Object Repository/Personal Info Page/FirstName2""), findTestData(""Test Data"").getValue(7, 1))",Chrome 80.0.3987.116,,2020-02-24 09:58:10,2020-02-24 09:58:10,0.133s,PASSED
+"entidad.OpcionComun.escribirTexto(findTestObject(""Object Repository/Personal Info Page/LastName2""), findTestData(""Test Data"").getValue(7, 2))",Chrome 80.0.3987.116,,2020-02-24 09:58:10,2020-02-24 09:58:10,0.126s,PASSED
+"entidad.OpcionComun.escribirTexto(findTestObject(""Object Repository/Personal Info Page/CompanyName2""), findTestData(""Test Data"").getValue(7, 3))",Chrome 80.0.3987.116,,2020-02-24 09:58:10,2020-02-24 09:58:10,0.128s,PASSED
+"entidad.OpcionComun.escribirTexto(findTestObject(""Object Repository/Personal Info Page/StreetAddress2""), findTestData(""Test Data"").getValue(7, 4))",Chrome 80.0.3987.116,,2020-02-24 09:58:10,2020-02-24 09:58:10,0.209s,PASSED
+"entidad.OpcionComun.escribirTexto(findTestObject(""Object Repository/Personal Info Page/ZipCode2""), findTestData(""Test Data"").getValue(7, 5))",Chrome 80.0.3987.116,,2020-02-24 09:58:10,2020-02-24 09:58:11,0.101s,PASSED
+"entidad.OpcionComun.escribirTexto(findTestObject(""Object Repository/Personal Info Page/EmailAddress""), findTestData(""Test Data"").getValue(7, 6))",Chrome 80.0.3987.116,,2020-02-24 09:58:11,2020-02-24 09:58:11,0.156s,PASSED
+"entidad.OpcionComun.darClick(findTestObject(""Object Repository/Personal Info Page/BtnNextAfterAddresses""))",Chrome 80.0.3987.116,,2020-02-24 09:58:11,2020-02-24 09:58:11,0.065s,PASSED
+"entidad.OpcionComun.objetoPresente(findTestObject(""Object Repository/Present Objects/7_TextoDatosPago""))",Chrome 80.0.3987.116,,2020-02-24 09:58:11,2020-02-24 09:58:11,0.018s,PASSED
+"entidad.OpcionComun.darClick(findTestObject(""Object Repository/Payment Info Page/CardType""))",Chrome 80.0.3987.116,,2020-02-24 09:58:11,2020-02-24 09:58:11,0.074s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/Payment Info Page/CardType""), findTestData(""Test Data"").getValue(8, 1), false)",Chrome 80.0.3987.116,,2020-02-24 09:58:11,2020-02-24 09:58:11,0.079s,PASSED
+"entidad.OpcionComun.escribirTexto(findTestObject(""Object Repository/Payment Info Page/SecurityCode""), findTestData(""Test Data"").getValue(8, 2))",Chrome 80.0.3987.116,,2020-02-24 09:58:11,2020-02-24 09:58:11,0.110s,PASSED
+"entidad.OpcionComun.escribirTexto(findTestObject(""Object Repository/Payment Info Page/CardNumber""), findTestData(""Test Data"").getValue(8, 3))",Chrome 80.0.3987.116,,2020-02-24 09:58:11,2020-02-24 09:58:11,0.113s,PASSED
+"entidad.OpcionComun.darClick(findTestObject(""Object Repository/Payment Info Page/ExpirationMonth""))",Chrome 80.0.3987.116,,2020-02-24 09:58:11,2020-02-24 09:58:11,0.092s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/Payment Info Page/ExpirationMonth""), findTestData(""Test Data"").getValue(8, 4), false)",Chrome 80.0.3987.116,,2020-02-24 09:58:11,2020-02-24 09:58:11,0.087s,PASSED
+"entidad.OpcionComun.darClick(findTestObject(""Object Repository/Payment Info Page/ExpirationYear""))",Chrome 80.0.3987.116,,2020-02-24 09:58:11,2020-02-24 09:58:11,0.083s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/Payment Info Page/ExpirationYear""), ""2019"", false)",Chrome 80.0.3987.116,,2020-02-24 09:58:11,2020-02-24 09:58:11,0.086s,PASSED
+"entidad.OpcionComun.darClick(findTestObject(""Object Repository/Payment Info Page/BtnSubmitAfterPayment""))",Chrome 80.0.3987.116,,2020-02-24 09:58:11,2020-02-24 09:58:12,0.473s,PASSED
+"entidad.OpcionComun.objetoPresente(findTestObject(""Object Repository/Present Objects/8_TextoOrdenExitosa""))",Chrome 80.0.3987.116,,2020-02-24 09:58:12,2020-02-24 09:58:12,0.017s,PASSED
+closeBrowser(),Chrome 80.0.3987.116,,2020-02-24 09:58:12,2020-02-24 09:58:13,0.624s,PASSED

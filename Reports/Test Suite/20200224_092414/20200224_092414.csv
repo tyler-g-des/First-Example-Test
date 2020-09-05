@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test Suite,,,2020-02-24 09:24:20,2020-02-24 09:24:21,0.738s,ERROR
+,,,,,,
+Test Cases/LoginAndSelectProducts,,Se autentica en la aplicación y realiza la compra de varios productos.,2020-02-24 09:24:21,2020-02-24 09:24:21,0.263s,ERROR
+,,,,,,
+Test Cases/Purchase,,"Se completa la información requerida como nombre, dirección.",2020-02-24 09:24:21,2020-02-24 09:24:21,0.214s,ERROR

@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite Chrome,Chrome 83.0.4103.116,,,2020-07-02 12:35:21,2020-07-02 12:35:32,11.352s,ERROR
+,,,,,,,
+Test Cases/LoginAndSelectProducts,Chrome 83.0.4103.116,Se autentica en la aplicación y realiza la compra de varios productos.,,2020-07-02 12:35:21,2020-07-02 12:35:27,5.781s,ERROR
+Start listener action : onTestCaseStart,Chrome 83.0.4103.116,,,2020-07-02 12:35:21,2020-07-02 12:35:21,0.001s,PASSED
+"openBrowser(""http://training.openspan.com/login"")",Chrome 83.0.4103.116,,,2020-07-02 12:35:21,2020-07-02 12:35:26,4.889s,PASSED
+"entidad.OpcionComun.objetoPresente(findTestObject(""Object Repository/Present Objects/1_TextoLogin""))",Chrome 83.0.4103.116,,,2020-07-02 12:35:26,2020-07-02 12:35:27,0.475s,PASSED
+"entidad.OpcionComun.escribirTexto(findTestObject(""Object Repository/SignIn Page/Username""), findTestData(""Test Data"").getValue(1, 1))",Chrome 83.0.4103.116,,,2020-07-02 12:35:27,2020-07-02 12:35:27,0.049s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 83.0.4103.116,,,2020-07-02 12:35:27,2020-07-02 12:35:27,0.000s,PASSED
+,,,,,,,
+Test Cases/Purchase,Chrome 83.0.4103.116,"Se completa la información requerida como nombre, dirección.",,2020-07-02 12:35:27,2020-07-02 12:35:32,5.306s,FAILED
+Start listener action : onTestCaseStart,Chrome 83.0.4103.116,,,2020-07-02 12:35:27,2020-07-02 12:35:27,0.000s,PASSED
+"entidad.OpcionComun.objetoPresente(findTestObject(""Object Repository/Present Objects/4_OrderProducts""))",Chrome 83.0.4103.116,,,2020-07-02 12:35:27,2020-07-02 12:35:32,5.114s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 83.0.4103.116,,,2020-07-02 12:35:32,2020-07-02 12:35:32,0.001s,PASSED
